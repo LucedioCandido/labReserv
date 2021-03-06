@@ -4,7 +4,7 @@
 
 Serviço de agendamento dos equipamentos do laboratório do Centro de Biociências da UFRN.
 
-Esta API desenvolvida em SpringBoot deverá fazer a comunicação entre o sistema de reserva de equipamentos dos laboratórios fo Centro de Biociências da Universidade com o servidor web, e a API da universidade(Credenciamento).
+Esta API desenvolvida em SpringBoot deverá fazer a comunicação entre o sistema de reserva de equipamentos dos laboratórios do Centro de Biociências da Universidade com o servidor web, e a API da universidade(Credenciamento).
 
 
 ### Autores:
@@ -21,16 +21,18 @@ Esta API desenvolvida em SpringBoot deverá fazer a comunicação entre o sistem
 
 ### Estórias de usuário
 
+#### Usuário pesquisador
 - Sendo um usuário do laboratório eu desejo:
     - Reservar horários para utilização de equipamento dos loboratórios
     - Cancelar minhas reservas
     - Declarar meu interesse em reservar equipamentos já reservados(Lista de espera para uso do equipamento)
     - Consultar quais equipamentos estão disponíveis na data e no horário que desejo
     
- 
+ #### Usuário técnico de um laboratório
  - Sendo um técnico do laboratório eu desejo:
     - Cadastrar um novo laboratório no sistema
-    - Cadastrar um novo equipamento em laboratório
+    - Cadastrar uma nova sala de um laboratório
+    - Cadastrar um novo equipamento
     - Definir horários de disponibilidade dos equipamentos
     - Visualizar os equipamentos que estão agendados e que estão livres
     - Visualisar as listas de interesse em reservar equipamentos já reservados(lista de espera)
