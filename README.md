@@ -12,10 +12,10 @@ Esta API desenvolvida em SpringBoot deverá fazer a comunicação entre o sistem
 - Vanessa Sayuri Uchida
 
 ### Endpoints
-
   - Reservar horário para uso de equipamento
   - Cancelar reservas de equipamentos 
-  - Consultar reservas 
+  - Consultar reservas
+  - Estabelecer a comunicação com a API da ufrn para utilizar dados de login do SIGAA.  
   - Indicar interesse em reservar equipamento já reservado (Lista de espera, sendo a reserva for cancelada, o usuario receberá notficação)
 
 
