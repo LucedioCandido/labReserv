@@ -6,6 +6,6 @@ import org.springframework.transaction.annotation.Transactional;
 import labReserv.api.entity.Equipamento;
 
 @Transactional
-public interface CadEquipRepository extends JpaRepository<Equipamento, Long> {
+public interface EquipRepository extends JpaRepository<Equipamento, Long> {
 
 }

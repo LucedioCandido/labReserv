@@ -12,7 +12,7 @@ import javax.persistence.Table;
 public class Laboratorio {
 	
 	@Id
-	@Column(name="id")
+	@Column(name="idLab")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	

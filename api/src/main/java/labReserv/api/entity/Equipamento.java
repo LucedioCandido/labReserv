@@ -12,7 +12,7 @@ import javax.persistence.Table;
 public class Equipamento {
 	
 	@Id
-	@Column(name="id")
+	@Column(name="idEqui")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
