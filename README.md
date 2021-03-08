@@ -12,10 +12,17 @@ Esta API desenvolvida em SpringBoot deverá fazer a comunicação entre o sistem
 - Vanessa Sayuri Uchida
 
 ### Endpoints
+  - Estabelecer a comunicação com a API da ufrn para utilizar dados de login do SIGAA.
+ 
+ #### usuário Técnico dos Laboratorios:
+  - Gerenciar cadastros de Laboratórios ✅
+  - Gerenciar cadastros de salas dos laboratórios ✅
+  - Gerenciar cadastro de Equipamentos
+  
+ #### usuário Técnico dos Laboratorios:
   - Reservar horário para uso de equipamento
   - Cancelar reservas de equipamentos 
   - Consultar reservas
-  - Estabelecer a comunicação com a API da ufrn para utilizar dados de login do SIGAA.  
   - Indicar interesse em reservar equipamento já reservado (Lista de espera, sendo a reserva for cancelada, o usuario receberá notficação)
 
 
